@@ -1,4 +1,5 @@
 /*******************************************************************************
+
 *  file:SwingProject
 *  author:Omar Rodriguez
           Nahid Enayatzadeh
@@ -56,7 +57,12 @@ public class SwingProject {
     //method: main
     //purpose: the entry-point to our application
     public static void main(String[] args) {
+<<<<<<< HEAD
         createGUIUsingFactoryMethod().play();
+=======
+       //createGUIUsingFactoryMethod().play();
+        createGUIUsingGuice().play();
+>>>>>>> inyección de dependencias
     }
 
 }
